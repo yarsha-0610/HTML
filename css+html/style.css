@@ -18,7 +18,21 @@ a:visited {
 a:hover , a:focus {
     color: indigo;
 }
-.First {
+p::first-letter{
     font-weight: bolder;
     font-size:larger ;
+}
+p::first-line {
+    font-weight: bold;
+
+}
+p::selection{
+    background-color: blueviolet;
+}
+p::before{
+    content:"...";
+    display: block;
+}
+p::after{
+    content: "...";
 }
