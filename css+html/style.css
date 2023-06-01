@@ -1,0 +1,24 @@
+article p:first-of-type{
+    color: blueviolet;
+    font-size: 140% ;
+    font-style: italic;
+
+}
+article :last-child {
+    font-weight: bold;
+}
+ul li:nth-child(3n) {
+    color: brown;
+
+}
+a:visited {
+    color: rgb(186, 21, 120);
+
+}
+a:hover , a:focus {
+    color: indigo;
+}
+.First {
+    font-weight: bolder;
+    font-size:larger ;
+}
