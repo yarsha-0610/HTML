@@ -36,3 +36,31 @@ p::before{
 p::after{
     content: "...";
 }
+.first {
+    color: brown;
+    border: 1px solid black;
+
+}
+strong {
+    color: blueviolet;
+    border: inherit;
+}
+.box {
+    width: 200px;
+    height: 150px ;
+    background: linear-gradient(90deg , rgb(241, 100, 100) , red , yellow);
+    box-shadow: 0 0 30px black;
+}
+.box1 {
+    width: 600px;
+    height: 150px ;
+    background:radial-gradient(yellow , white );
+    border: 10px dashed black;
+    border-width: 10px 5px 15px 20px;
+    border-radius: 10px;
+
+  
+}
+ h1 {
+    text-shadow: 3px 3px 3px rgba(0 ,0, 0,0.2)   ;
+ }
