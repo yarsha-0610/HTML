@@ -1,3 +1,8 @@
+ body {
+  margin: 20px;
+  font-size: 70%;
+ }
+ 
  * , *::after, *::before {
     box-sizing: border-box;
   }
@@ -13,6 +18,18 @@
     background-color: chocolate;
     display: inline-block;
  
-   
-   
 } 
+
+.box1 {
+  width: 150px;
+  height: 200px; 
+  border: 10px solid black;
+  overflow: hidden;
+
+}
+.box2 {
+  width: 20rem ;
+  height: 50vh;
+  border: 5px solid olivedrab;
+  background-color: crimson ;
+}
